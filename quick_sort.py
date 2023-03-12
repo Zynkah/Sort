@@ -48,6 +48,7 @@ quickSort(alist)
 print(alist)
 
 '''
+O(n log n) may degrade to O(n^2) if split points are not near the middle of the list
 Worst case the split point may not be in the middle and can be very skewed to the left of right, leaving an very uneven division.
 To alleviate some of the potential for an uneven division we can use a technique called median of three.
 To choose the pivot value, we will consider the first, the middle, and the last of the list.

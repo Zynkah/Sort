@@ -22,5 +22,6 @@ insertionSort(alist)
 print(alist)
 
 '''
+O(n^2)
 Shift operation requires approximately a third of the provessing work of an exchange since only one assignment is performed.
 '''

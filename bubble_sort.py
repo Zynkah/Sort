@@ -20,6 +20,7 @@ bubbleSort(alist)
 print(alist) # [17, 20, 26, 31, 44, 54, 55, 77, 93]
 
 '''
+O(n^2)
 Often considered the most inefficeint sorting method, since it must exchange itmes before the final location is known. 
 These 'wasted' exchange operations are very costly. 
 However, because the bubble sort makes passes through the entire unsorted portion of the list, bubble sort can be modified to stop early if it finds that the list has become sorted, this is called a short bubble.

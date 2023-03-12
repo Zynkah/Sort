@@ -47,6 +47,7 @@ mergeSort(alist)
 print(alist)
 
 '''
+O(n log n)
 Merge sort requires extra space to hold the two halves as they are extracted with the slicing operations.
 This additional space can be a critical factor fi the list is large and can make this sort problematic when working on large data sets.
 '''

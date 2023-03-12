@@ -31,4 +31,7 @@ alist = [54, 26, 93, 17, 77, 31, 44, 55, 20]
 shellSort(alist)
 print(alist)
 
-# Shell sort cuts out the number of times an insert sort is performed, making the final pass very efficient
+'''
+O(n^2)
+Shell sort cuts out the number of times an insert sort is performed, making the final pass very efficient
+'''
